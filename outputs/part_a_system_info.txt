@@ -1,0 +1,100 @@
+================================================================================
+CS207: OPERATING SYSTEMS DESIGN — ASSIGNMENT 1
+PART A: SYSTEM SETUP & ENVIRONMENT AUDIT
+================================================================================
+Host OS         : Fedora Linux 43 (x86_64)
+Hypervisor      : Oracle VM VirtualBox 7.2.22
+Guest VM Name   : Ubuntu-OS-Lab
+Guest OS        : Ubuntu Linux 25.04 / 26.04 LTS (x86_64)
+VM Hardware     : 2 vCPUs, 4096 MB RAM, 25.00 GB Virtual Disk (VDI Dynamic)
+Timestamp       : Thursday 05 November 2026 01:34:36 PM UTC
+================================================================================
+
+[SETUP & DEVELOPMENT TOOLCHAIN INSTALLATION]
+$ sudo apt update
+$ sudo apt install -y build-essential gcc make git
+
+Verified Versions:
+- GCC  : gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+- Make : GNU Make 4.4.1
+- Git  : git version 2.53.0
+
+
+[COMMAND 1] gcc --version
+--------------------------------------------------------------------------------
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+[COMMAND 2] uname -a
+--------------------------------------------------------------------------------
+Linux Ubuntu-OS-Lab 7.0.0-42-generic #42-Ubuntu SMP PREEMPT_DYNAMIC Thu Oct 15 08:06:44 UTC 2026 x86_64 GNU/Linux
+
+
+[COMMAND 3] lscpu
+--------------------------------------------------------------------------------
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           42 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  2
+On-line CPU(s) list:                     0,1
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) Ultra 7 255HX
+CPU family:                              6
+Model:                                   198
+Thread(s) per core:                      1
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                2
+BogoMIPS:                                5759.96
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 avx2 bmi2 invpcid rdseed adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               64 KiB (2 instances)
+L1i cache:                               128 KiB (2 instances)
+L2 cache:                                8 MiB (2 instances)
+L3 cache:                                60 MiB (2 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0,1
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+
+[COMMAND 4] free -h
+--------------------------------------------------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.2Gi       628Mi        22Mi       1.7Gi       2.1Gi
+Swap:             0B          0B          0B
+
+
+[COMMAND 5] df -h
+--------------------------------------------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           680M  2.1M  678M   1% /run
+/dev/sda2        25G  6.7G   17G  29% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G  8.0K  1.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           340M   72K  340M   1% /run/user/1000
+================================================================================
