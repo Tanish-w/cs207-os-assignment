@@ -1,0 +1,10 @@
+# PID,Arrival_Time,Burst_Time
+# Test case satisfies: >= 6 processes, tie in arrival time (P2 and P3 at 2), long burst (P1 with 8), arriving after 0 (P4, P5, P6)
+PID,Arrival_Time,Burst_Time
+P1,0,8
+P2,2,4
+P3,2,1
+P4,5,3
+P5,7,2
+P6,12,6
+
