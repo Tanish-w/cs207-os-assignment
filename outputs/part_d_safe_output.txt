@@ -1,0 +1,37 @@
+BANKER'S ALGORITHM - DEADLOCK AVOIDANCE
+
+Enter number of processes (max 8): Enter number of resource types (max 10): 
+Enter Allocation Matrix (5 x 3):
+
+Enter Maximum Matrix (5 x 3):
+
+Enter Available Resources (3 values):
+
+Need Matrix:
+7 4 3 
+1 2 2 
+6 0 0 
+0 1 1 
+4 3 1 
+
+Checking system safety...
+
+Safe Sequence 1: P1 -> P3 -> P0 -> P2 -> P4
+Safe Sequence 2: P1 -> P3 -> P0 -> P4 -> P2
+Safe Sequence 3: P1 -> P3 -> P2 -> P0 -> P4
+Safe Sequence 4: P1 -> P3 -> P2 -> P4 -> P0
+Safe Sequence 5: P1 -> P3 -> P4 -> P0 -> P2
+Safe Sequence 6: P1 -> P3 -> P4 -> P2 -> P0
+Safe Sequence 7: P1 -> P4 -> P3 -> P0 -> P2
+Safe Sequence 8: P1 -> P4 -> P3 -> P2 -> P0
+Safe Sequence 9: P3 -> P1 -> P0 -> P2 -> P4
+Safe Sequence 10: P3 -> P1 -> P0 -> P4 -> P2
+Safe Sequence 11: P3 -> P1 -> P2 -> P0 -> P4
+Safe Sequence 12: P3 -> P1 -> P2 -> P4 -> P0
+Safe Sequence 13: P3 -> P1 -> P4 -> P0 -> P2
+Safe Sequence 14: P3 -> P1 -> P4 -> P2 -> P0
+Safe Sequence 15: P3 -> P4 -> P1 -> P0 -> P2
+Safe Sequence 16: P3 -> P4 -> P1 -> P2 -> P0
+
+SYSTEM IS IN A SAFE STATE.
+Total safe sequences: 16
