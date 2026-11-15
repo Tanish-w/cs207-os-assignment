@@ -1,0 +1,113 @@
+CS207 PART F - UBUNTU OBSERVATIONS
+==================================
+
+===== 1. PROCESS MANAGEMENT =====
+Linux Ubuntu-OS-Lab 7.0.0-42-generic #42~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct 19 15:32:40 UTC 2 aarch64 aarch64 aarch64 GNU/Linux
+    PID    PPID COMMAND
+  28930    2673 bash
+    PID TTY          TIME CMD
+      1 ?        00:00:03 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 pool_workqueue_release
+      4 ?        00:00:00 kworker/R-rcu_gp
+      5 ?        00:00:00 kworker/R-sync_wq
+      6 ?        00:00:00 kworker/R-kvfree_rcu_reclaim
+      7 ?        00:00:00 kworker/R-slub_flushwq
+      8 ?        00:00:00 kworker/R-netns
+     10 ?        00:00:00 kworker/0:0H-kblockd
+top - 12:28:22 up  4:15,  1 user,  load average: 0.02, 0.07, 0.05
+Tasks: 202 total,   1 running, 201 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.7 us,  4.3 sy,  0.0 ni, 87.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3891.3 total,     81.3 free,   1715.7 used,   2095.3 buff/cache     
+MiB Swap:   3891.0 total,   3878.8 free,     12.2 used.   2175.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1569 yashasvi  20   0  194748  20220   7532 S   9.1   0.5   1:11.89 pipewire
+      1 root      20   0   22968  13552   9000 S   0.0   0.3   0:03.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+===== 2. FILE SYSTEM ORGANIZATION =====
+/home/yashasvi/cs207-os-assignment
+bin
+bin.usr-is-merged
+boot
+cdrom
+dev
+etc
+home
+lib
+lib.usr-is-merged
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+sbin.usr-is-merged
+snap
+srv
+swap.img
+sys
+tmp
+usr
+var
+total 104
+drwxrwxr-x  9 yashasvi yashasvi  4096 Nov 15 12:28 .
+drwxr-x--- 17 yashasvi yashasvi  4096 Nov 15 08:30 ..
+-rwxrwxr-x  1 yashasvi yashasvi 71016 Nov 15 08:58 bankers_part_d
+-rw-rw-r--  1 yashasvi yashasvi 10864 Nov 15 08:30 CS207_Assignment.pdf
+drwxrwxr-x  8 yashasvi yashasvi  4096 Nov 15 11:46 .git
+-rw-rw-r--  1 yashasvi yashasvi   114 Nov 15 09:07 .gitignore
+-rw-rw-r--  1 yashasvi yashasvi   156 Nov 15 08:30 Makefile
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 12:28 outputs
+-rw-rw-r--  1 yashasvi yashasvi   693 Nov 15 12:27 part_f_observations.sh
+-rwxrwxr-x  1 yashasvi yashasvi 71760 Nov 15 11:25 producer_consumer_part_c
+-rw-rw-r--  1 yashasvi yashasvi  1629 Nov 15 08:30 README.md
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 09:06 report
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 08:30 screenshots
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 08:30 scripts
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 11:24 src
+drwxrwxr-x  2 yashasvi yashasvi  4096 Nov 15 08:58 test_cases
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           390M  2.0M  388M   1% /run
+/dev/sda2        39G   11G   26G  31% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        256K   14K  243K   6% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs           390M  140K  389M   1% /run/user/1000
+
+===== 3. USER PERMISSIONS AND PROTECTION =====
+uid=1000(yashasvi) gid=1000(yashasvi) groups=1000(yashasvi),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),114(lpadmin),123(lxd)
+drwxrwxr-x 9 yashasvi yashasvi 4096 Nov 15 12:28 .
+-rw-rw-r-- 1 yashasvi yashasvi 1629 Nov 15 08:30 README.md
+  File: README.md
+  Size: 1629      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,2	Inode: 2228918     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/yashasvi)   Gid: ( 1000/yashasvi)
+Access: 2026-11-15 08:31:54.140240410 +0530
+Modify: 2026-11-15 08:30:57.922497546 +0530
+Change: 2026-11-15 08:30:57.922497546 +0530
+ Birth: 2026-11-15 08:30:57.922497546 +0530
+
+===== 4. COMMAND LINE TOOLS =====
+Shell: /bin/bash
+GNU bash, version 5.2.21(1)-release (aarch64-unknown-linux-gnu)
+/home/yashasvi/cs207-os-assignment
+bankers_part_d
+CS207_Assignment.pdf
+Makefile
+outputs
+part_f_observations.sh
+producer_consumer_part_c
+README.md
+report
+screenshots
+scripts
+src
+test_cases
+grep (GNU grep) 3.11
