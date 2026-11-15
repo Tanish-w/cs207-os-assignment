@@ -1,0 +1,34 @@
+DISK SCHEDULING SIMULATOR
+Enter number of disk requests: Enter initial head position: Enter the request queue:
+
+Number of requests: 4
+
+========== FCFS DISK SCHEDULING ==========
+Initial head position: 50
+Service order: 50
+
+Request         Movement        Total Movement 
+10              40              40             
+20              10              50             
+60              40              90             
+70              10              100            
+
+Order serviced: 10 -> 20 -> 60 -> 70
+Total head movement (FCFS): 100 cylinders
+
+========== SSTF DISK SCHEDULING ==========
+Initial head position: 50
+
+Request         Movement        Total Movement 
+Initial         -               0              
+
+Order serviced: 50 -> 60
+60              10              10             
+ -> 70
+70              10              20             
+ -> 20
+20              50              70             
+ -> 10
+10              10              80             
+
+Total head movement (SSTF): 80 cylinders

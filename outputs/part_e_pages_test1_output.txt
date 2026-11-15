@@ -1,0 +1,39 @@
+PAGE REPLACEMENT SIMULATOR
+Enter number of page references: Enter the page reference string:
+Enter number of frames (1-20): 
+Number of references: 13
+Number of frames: 3
+
+========== FIFO PAGE REPLACEMENT ==========
+Page      F1        F2        F3        Status      
+7         7         -         -         FAULT       
+0         7         0         -         FAULT       
+1         7         0         1         FAULT       
+2         2         0         1         FAULT       
+0         2         0         1         HIT         
+3         2         3         1         FAULT       
+0         2         3         0         FAULT       
+4         4         3         0         FAULT       
+2         4         2         0         FAULT       
+3         4         2         3         FAULT       
+0         0         2         3         FAULT       
+3         0         2         3         HIT         
+2         0         2         3         HIT         
+Total page faults (FIFO): 10
+
+========== LRU PAGE REPLACEMENT ==========
+Page      F1        F2        F3        Status      
+7         7         -         -         FAULT       
+0         7         0         -         FAULT       
+1         7         0         1         FAULT       
+2         2         0         1         FAULT       
+0         2         0         1         HIT         
+3         2         0         3         FAULT       
+0         2         0         3         HIT         
+4         4         0         3         FAULT       
+2         4         0         2         FAULT       
+3         4         3         2         FAULT       
+0         0         3         2         FAULT       
+3         0         3         2         HIT         
+2         0         3         2         HIT         
+Total page faults (LRU): 9
