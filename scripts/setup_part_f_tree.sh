@@ -55,7 +55,7 @@ chmod 644 "$DEMO_DIR/system/kernel/vmlinuz.txt"
 chmod 600 "$DEMO_DIR/system/config/sysctl.conf"    # Owner read/write only
 chmod 644 "$DEMO_DIR/system/config/fstab"
 chmod 640 "$DEMO_DIR/system/logs/syslog.log"       # Owner rw, group r
-chmod 755 "$DEMO_DIR/user_data/docs/assignment_notes.md"
+chmod 644 "$DEMO_DIR/user_data/docs/assignment_notes.md"
 
 echo "1. Directory Tree Visualization:"
 if command -v tree >/dev/null 2>&1; then

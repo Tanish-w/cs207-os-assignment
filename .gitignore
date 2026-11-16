@@ -1,6 +1,19 @@
-# Build outputs
+# Build outputs and binaries
 *.o
 *.out
+scheduler
+producer_consumer
+bankers
+bankers_part_d
+page_replacement
+disk_scheduling
+fs_demo/
+
+# Submission archives, root copy of report, and generated documents
+*.zip
+/report.pdf
+report/report.html
+report/report.docx
 
 # System and editor files
 .DS_Store
@@ -8,8 +21,3 @@
 .idea/
 *.swp
 *~
-bankers
-bankers_part_d
-
-
-
