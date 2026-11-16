@@ -5,204 +5,204 @@ Total items: 100
 
 Producer 1 produced Item 1
 Producer 1 produced Item 3
-Consumer 2 consumed Item 2 (from Producer 2)
+Producer 1 produced Item 5
+Producer 1 produced Item 7
+Producer 1 produced Item 9
 Consumer 1 consumed Item 1 (from Producer 1)
 Consumer 1 consumed Item 3 (from Producer 1)
 Consumer 1 consumed Item 5 (from Producer 1)
-Producer 1 produced Item 5
-Producer 2 produced Item 2
-Producer 1 produced Item 7
-Producer 1 produced Item 9
+Consumer 1 consumed Item 7 (from Producer 1)
+Consumer 1 consumed Item 9 (from Producer 1)
 Producer 1 produced Item 11
 Producer 1 produced Item 13
-Consumer 2 consumed Item 7 (from Producer 1)
+Consumer 1 consumed Item 11 (from Producer 1)
 Producer 1 produced Item 15
-Consumer 2 consumed Item 4 (from Producer 2)
+Consumer 1 consumed Item 13 (from Producer 1)
 Producer 1 produced Item 17
-Consumer 2 consumed Item 9 (from Producer 1)
+Consumer 1 consumed Item 15 (from Producer 1)
 Producer 1 produced Item 19
-Consumer 2 consumed Item 11 (from Producer 1)
+Consumer 1 consumed Item 17 (from Producer 1)
+Consumer 1 consumed Item 19 (from Producer 1)
+Consumer 1 consumed Item 21 (from Producer 1)
 Producer 1 produced Item 21
-Consumer 2 consumed Item 13 (from Producer 1)
-Consumer 2 consumed Item 15 (from Producer 1)
 Producer 1 produced Item 23
-Consumer 2 consumed Item 17 (from Producer 1)
 Producer 1 produced Item 25
-Consumer 2 consumed Item 19 (from Producer 1)
 Producer 1 produced Item 27
-Consumer 2 consumed Item 21 (from Producer 1)
 Producer 1 produced Item 29
-Consumer 2 consumed Item 23 (from Producer 1)
 Producer 1 produced Item 31
-Consumer 2 consumed Item 25 (from Producer 1)
+Consumer 1 consumed Item 23 (from Producer 1)
+Consumer 1 consumed Item 25 (from Producer 1)
+Consumer 1 consumed Item 27 (from Producer 1)
+Consumer 1 consumed Item 29 (from Producer 1)
+Consumer 1 consumed Item 31 (from Producer 1)
 Producer 1 produced Item 33
-Consumer 2 consumed Item 27 (from Producer 1)
+Consumer 1 consumed Item 33 (from Producer 1)
+Consumer 1 consumed Item 35 (from Producer 1)
 Producer 1 produced Item 35
-Consumer 2 consumed Item 29 (from Producer 1)
 Producer 1 produced Item 37
-Consumer 2 consumed Item 31 (from Producer 1)
 Producer 1 produced Item 39
-Consumer 2 consumed Item 33 (from Producer 1)
+Consumer 1 consumed Item 37 (from Producer 1)
 Producer 1 produced Item 41
-Consumer 2 consumed Item 35 (from Producer 1)
+Consumer 1 consumed Item 39 (from Producer 1)
 Producer 1 produced Item 43
-Consumer 2 consumed Item 37 (from Producer 1)
 Producer 1 produced Item 45
-Consumer 2 consumed Item 39 (from Producer 1)
+Consumer 1 consumed Item 41 (from Producer 1)
 Producer 1 produced Item 47
-Consumer 2 consumed Item 41 (from Producer 1)
+Consumer 1 consumed Item 43 (from Producer 1)
 Producer 1 produced Item 49
-Consumer 2 consumed Item 43 (from Producer 1)
+Consumer 1 consumed Item 45 (from Producer 1)
 Producer 1 produced Item 51
-Consumer 2 consumed Item 45 (from Producer 1)
+Consumer 1 consumed Item 47 (from Producer 1)
+Consumer 1 consumed Item 49 (from Producer 1)
 Producer 1 produced Item 53
-Consumer 2 consumed Item 47 (from Producer 1)
+Consumer 1 consumed Item 51 (from Producer 1)
 Producer 1 produced Item 55
-Consumer 2 consumed Item 49 (from Producer 1)
 Producer 1 produced Item 57
-Consumer 2 consumed Item 51 (from Producer 1)
+Consumer 1 consumed Item 53 (from Producer 1)
 Producer 1 produced Item 59
-Consumer 2 consumed Item 53 (from Producer 1)
 Producer 1 produced Item 61
-Consumer 2 consumed Item 55 (from Producer 1)
 Producer 1 produced Item 63
-Consumer 2 consumed Item 57 (from Producer 1)
+Consumer 1 consumed Item 55 (from Producer 1)
 Producer 1 produced Item 65
-Consumer 2 consumed Item 59 (from Producer 1)
+Consumer 1 consumed Item 57 (from Producer 1)
 Producer 1 produced Item 67
-Consumer 2 consumed Item 61 (from Producer 1)
+Consumer 1 consumed Item 59 (from Producer 1)
 Producer 1 produced Item 69
+Consumer 1 consumed Item 61 (from Producer 1)
 Producer 1 produced Item 71
-Consumer 2 consumed Item 63 (from Producer 1)
+Consumer 1 consumed Item 63 (from Producer 1)
 Producer 1 produced Item 73
-Consumer 2 consumed Item 65 (from Producer 1)
-Consumer 2 consumed Item 67 (from Producer 1)
-Consumer 2 consumed Item 69 (from Producer 1)
-Consumer 2 consumed Item 71 (from Producer 1)
+Consumer 1 consumed Item 65 (from Producer 1)
+Consumer 1 consumed Item 67 (from Producer 1)
+Consumer 1 consumed Item 69 (from Producer 1)
 Producer 1 produced Item 75
-Consumer 2 consumed Item 73 (from Producer 1)
+Consumer 1 consumed Item 71 (from Producer 1)
 Producer 1 produced Item 77
-Consumer 2 consumed Item 75 (from Producer 1)
+Consumer 1 consumed Item 73 (from Producer 1)
 Producer 1 produced Item 79
-Consumer 2 consumed Item 77 (from Producer 1)
-Consumer 2 consumed Item 79 (from Producer 1)
 Producer 1 produced Item 81
-Consumer 2 consumed Item 81 (from Producer 1)
 Producer 1 produced Item 83
-Consumer 2 consumed Item 83 (from Producer 1)
+Consumer 1 consumed Item 75 (from Producer 1)
 Producer 1 produced Item 85
-Consumer 2 consumed Item 85 (from Producer 1)
+Consumer 1 consumed Item 77 (from Producer 1)
 Producer 1 produced Item 87
-Consumer 2 consumed Item 87 (from Producer 1)
+Consumer 1 consumed Item 79 (from Producer 1)
 Producer 1 produced Item 89
-Consumer 2 consumed Item 89 (from Producer 1)
+Consumer 1 consumed Item 81 (from Producer 1)
 Producer 1 produced Item 91
-Consumer 2 consumed Item 91 (from Producer 1)
+Consumer 1 consumed Item 83 (from Producer 1)
 Producer 1 produced Item 93
-Consumer 2 consumed Item 93 (from Producer 1)
+Consumer 1 consumed Item 85 (from Producer 1)
 Producer 1 produced Item 95
-Consumer 2 consumed Item 95 (from Producer 1)
 Producer 1 produced Item 97
-Consumer 2 consumed Item 97 (from Producer 1)
+Consumer 1 consumed Item 87 (from Producer 1)
+Consumer 1 consumed Item 89 (from Producer 1)
+Consumer 1 consumed Item 91 (from Producer 1)
+Consumer 1 consumed Item 93 (from Producer 1)
+Consumer 1 consumed Item 95 (from Producer 1)
+Consumer 1 consumed Item 97 (from Producer 1)
 Producer 1 produced Item 99
-Consumer 2 consumed Item 99 (from Producer 1)
+Consumer 1 consumed Item 99 (from Producer 1)
+Producer 2 produced Item 2
 Producer 2 produced Item 4
-Consumer 2 consumed Item 6 (from Producer 2)
 Producer 2 produced Item 6
-Consumer 2 consumed Item 8 (from Producer 2)
 Producer 2 produced Item 8
-Consumer 2 consumed Item 10 (from Producer 2)
 Producer 2 produced Item 10
-Consumer 2 consumed Item 12 (from Producer 2)
+Consumer 1 consumed Item 2 (from Producer 2)
 Producer 2 produced Item 12
+Consumer 1 consumed Item 4 (from Producer 2)
 Producer 2 produced Item 14
-Consumer 2 consumed Item 14 (from Producer 2)
-Consumer 2 consumed Item 16 (from Producer 2)
+Consumer 1 consumed Item 6 (from Producer 2)
+Consumer 1 consumed Item 10 (from Producer 2)
+Consumer 1 consumed Item 12 (from Producer 2)
+Consumer 1 consumed Item 14 (from Producer 2)
+Consumer 1 consumed Item 16 (from Producer 2)
 Producer 2 produced Item 16
-Consumer 2 consumed Item 18 (from Producer 2)
 Producer 2 produced Item 18
-Consumer 2 consumed Item 20 (from Producer 2)
 Producer 2 produced Item 20
-Consumer 2 consumed Item 22 (from Producer 2)
 Producer 2 produced Item 22
-Consumer 2 consumed Item 24 (from Producer 2)
 Producer 2 produced Item 24
-Consumer 2 consumed Item 26 (from Producer 2)
 Producer 2 produced Item 26
-Consumer 2 consumed Item 28 (from Producer 2)
+Consumer 2 consumed Item 8 (from Producer 2)
+Consumer 1 consumed Item 20 (from Producer 2)
+Consumer 2 consumed Item 18 (from Producer 2)
+Consumer 1 consumed Item 22 (from Producer 2)
+Consumer 2 consumed Item 24 (from Producer 2)
+Consumer 1 consumed Item 26 (from Producer 2)
 Producer 2 produced Item 28
-Consumer 2 consumed Item 30 (from Producer 2)
 Producer 2 produced Item 30
-Consumer 2 consumed Item 32 (from Producer 2)
 Producer 2 produced Item 32
-Consumer 2 consumed Item 34 (from Producer 2)
 Producer 2 produced Item 34
-Consumer 2 consumed Item 36 (from Producer 2)
 Producer 2 produced Item 36
-Consumer 2 consumed Item 38 (from Producer 2)
+Consumer 2 consumed Item 28 (from Producer 2)
+Consumer 1 consumed Item 30 (from Producer 2)
+Consumer 1 consumed Item 32 (from Producer 2)
+Consumer 1 consumed Item 34 (from Producer 2)
+Consumer 1 consumed Item 36 (from Producer 2)
+Consumer 1 consumed Item 38 (from Producer 2)
 Producer 2 produced Item 38
-Consumer 2 consumed Item 40 (from Producer 2)
 Producer 2 produced Item 40
-Consumer 2 consumed Item 42 (from Producer 2)
 Producer 2 produced Item 42
-Consumer 2 consumed Item 44 (from Producer 2)
 Producer 2 produced Item 44
-Consumer 2 consumed Item 46 (from Producer 2)
 Producer 2 produced Item 46
-Consumer 2 consumed Item 48 (from Producer 2)
 Producer 2 produced Item 48
-Consumer 2 consumed Item 50 (from Producer 2)
+Consumer 1 consumed Item 40 (from Producer 2)
 Producer 2 produced Item 50
-Consumer 2 consumed Item 52 (from Producer 2)
 Producer 2 produced Item 52
-Consumer 2 consumed Item 54 (from Producer 2)
+Consumer 2 consumed Item 42 (from Producer 2)
 Producer 2 produced Item 54
-Consumer 2 consumed Item 56 (from Producer 2)
+Consumer 2 consumed Item 46 (from Producer 2)
+Consumer 2 consumed Item 48 (from Producer 2)
+Consumer 2 consumed Item 50 (from Producer 2)
+Consumer 2 consumed Item 52 (from Producer 2)
+Consumer 1 consumed Item 44 (from Producer 2)
+Consumer 2 consumed Item 54 (from Producer 2)
 Producer 2 produced Item 56
+Consumer 2 consumed Item 56 (from Producer 2)
 Consumer 2 consumed Item 58 (from Producer 2)
 Producer 2 produced Item 58
-Consumer 2 consumed Item 60 (from Producer 2)
 Producer 2 produced Item 60
-Consumer 2 consumed Item 62 (from Producer 2)
 Producer 2 produced Item 62
-Consumer 2 consumed Item 64 (from Producer 2)
 Producer 2 produced Item 64
-Consumer 2 consumed Item 66 (from Producer 2)
 Producer 2 produced Item 66
-Consumer 2 consumed Item 68 (from Producer 2)
 Producer 2 produced Item 68
-Consumer 2 consumed Item 70 (from Producer 2)
+Consumer 2 consumed Item 60 (from Producer 2)
+Consumer 1 consumed Item 62 (from Producer 2)
+Consumer 2 consumed Item 64 (from Producer 2)
+Consumer 1 consumed Item 66 (from Producer 2)
+Consumer 2 consumed Item 68 (from Producer 2)
 Producer 2 produced Item 70
-Consumer 2 consumed Item 72 (from Producer 2)
 Producer 2 produced Item 72
-Consumer 2 consumed Item 74 (from Producer 2)
 Producer 2 produced Item 74
-Consumer 2 consumed Item 76 (from Producer 2)
 Producer 2 produced Item 76
-Consumer 2 consumed Item 78 (from Producer 2)
 Producer 2 produced Item 78
-Consumer 2 consumed Item 80 (from Producer 2)
+Consumer 1 consumed Item 70 (from Producer 2)
 Producer 2 produced Item 80
-Consumer 2 consumed Item 82 (from Producer 2)
 Producer 2 produced Item 82
-Consumer 2 consumed Item 84 (from Producer 2)
 Producer 2 produced Item 84
-Consumer 2 consumed Item 86 (from Producer 2)
+Consumer 1 consumed Item 74 (from Producer 2)
+Consumer 1 consumed Item 76 (from Producer 2)
+Consumer 1 consumed Item 78 (from Producer 2)
+Consumer 1 consumed Item 80 (from Producer 2)
+Consumer 1 consumed Item 82 (from Producer 2)
+Consumer 1 consumed Item 84 (from Producer 2)
 Producer 2 produced Item 86
-Consumer 2 consumed Item 88 (from Producer 2)
 Producer 2 produced Item 88
-Consumer 2 consumed Item 90 (from Producer 2)
 Producer 2 produced Item 90
-Consumer 2 consumed Item 92 (from Producer 2)
 Producer 2 produced Item 92
-Consumer 2 consumed Item 94 (from Producer 2)
 Producer 2 produced Item 94
-Consumer 2 consumed Item 96 (from Producer 2)
+Consumer 2 consumed Item 72 (from Producer 2)
+Consumer 1 consumed Item 88 (from Producer 2)
+Consumer 2 consumed Item 86 (from Producer 2)
+Consumer 1 consumed Item 90 (from Producer 2)
+Consumer 2 consumed Item 92 (from Producer 2)
+Consumer 1 consumed Item 94 (from Producer 2)
 Producer 2 produced Item 96
-Consumer 2 consumed Item 98 (from Producer 2)
 Producer 2 produced Item 98
-Consumer 2 consumed Item 100 (from Producer 2)
 Producer 2 produced Item 100
+Consumer 2 consumed Item 96 (from Producer 2)
+Consumer 2 consumed Item 98 (from Producer 2)
+Consumer 2 consumed Item 100 (from Producer 2)
 Consumer 2 received termination signal
 Consumer 1 received termination signal
 

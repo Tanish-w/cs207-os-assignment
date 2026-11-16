@@ -1,40 +1,41 @@
 === CS207: PART F - FILE SYSTEM & DIRECTORY TREE DEMONSTRATION ===
 1. Directory Tree Visualization:
-[drwxrwx--- tanish   tanish  ]  fs_demo
-├── [drwxrwx--- tanish   tanish  ]  system
-│   ├── [drwxrwx--- tanish   tanish  ]  config
+[drwxr-xr-x tanish   tanish  ]  fs_demo
+├── [drwxr-xr-x tanish   tanish  ]  system
+│   ├── [drwxr-xr-x tanish   tanish  ]  config
 │   │   ├── [-rw-r--r-- tanish   tanish  ]  fstab
 │   │   └── [-rw------- tanish   tanish  ]  sysctl.conf
-│   ├── [drwxrwx--- tanish   tanish  ]  kernel
+│   ├── [drwxr-xr-x tanish   tanish  ]  kernel
 │   │   └── [-rw-r--r-- tanish   tanish  ]  vmlinuz.txt
-│   └── [drwxrwx--- tanish   tanish  ]  logs
+│   └── [drwxr-xr-x tanish   tanish  ]  logs
 │       └── [-rw-r----- tanish   tanish  ]  syslog.log
-└── [drwxrwx--- tanish   tanish  ]  user_data
-    └── [drwxrwx--- tanish   tanish  ]  docs
-        └── [-rwxr-xr-x tanish   tanish  ]  assignment_notes.md
+└── [drwxr-xr-x tanish   tanish  ]  user_data
+    └── [drwxr-xr-x tanish   tanish  ]  docs
+        └── [-rw-r--r-- tanish   tanish  ]  assignment_notes.md
 
 7 directories, 5 files
 2. Absolute vs Relative Path Demonstration:
-Absolute Path: /home/tanish/fs_demo/system/config/sysctl.conf
+Absolute Path: /home/tanish/Documents/os_assignment/fs_demo/system/config/sysctl.conf
 Relative Path: ./fs_demo/system/config/sysctl.conf
-Navigating: ls ../tanish/fs_demo/system/kernel -> vmlinuz.txt
+Navigating: ls ../os_assignment/fs_demo/system/kernel -> vmlinuz.txt
 3. File Permissions and Ownership Audit (ls -la):
-total 16
-drwxrwx--- 2 tanish tanish 4096 Nov 14 22:59 .
-drwxrwx--- 5 tanish tanish 4096 Nov 14 22:59 ..
--rw-r--r-- 1 tanish tanish  126 Nov 14 22:59 fstab
--rw------- 1 tanish tanish   77 Nov 14 22:59 sysctl.conf
+total 8
+drwxr-xr-x. 1 tanish tanish  32 Nov 17 01:34 .
+drwxr-xr-x. 1 tanish tanish  32 Nov 17 01:34 ..
+-rw-r--r--. 1 tanish tanish 126 Nov 17 01:34 fstab
+-rw-------. 1 tanish tanish  77 Nov 17 01:34 sysctl.conf
 4. Permission Modification (Symbolic vs Octal):
-Original:              -rw------- tanish tanish fs_demo/system/config/sysctl.conf
-Octal (chmod 644):     -rw-r--r-- tanish tanish fs_demo/system/config/sysctl.conf
-Symbolic (chmod u+x):  -rwxr--r-- tanish tanish fs_demo/system/config/sysctl.conf
+Original:              -rw-------. tanish tanish fs_demo/system/config/sysctl.conf
+Octal (chmod 644):     -rw-r--r--. tanish tanish fs_demo/system/config/sysctl.conf
+Symbolic (chmod u+x):  -rwxr--r--. tanish tanish fs_demo/system/config/sysctl.conf
 5. Detailed Inode & File Metadata Inspection (stat):
   File: fs_demo/system/kernel/vmlinuz.txt
-  size: 112       	Blocks: 8          IO Block: 4096   regular file
-Device: 8,2	Inode: 1442596     Links: 1
+  Size: 112       	Blocks: 8          IO Block: 4096   regular file
+Device: 0,46	Inode: 16282294    Links: 1
 Access: (0644/-rw-r--r--)  Uid: ( 1000/  tanish)   Gid: ( 1000/  tanish)
-Access: 2026-11-14 22:59:13.438269285 +0000
-Modify: 2026-11-14 22:59:13.439269282 +0000
-Change: 2026-11-14 22:59:13.448269260 +0000
- Birth: 2026-11-14 22:59:13.438269285 +0000
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2026-11-17 01:34:39.638069711 +0530
+Modify: 2026-11-17 01:34:39.639299253 +0530
+Change: 2026-11-17 01:34:39.641358326 +0530
+ Birth: 2026-11-17 01:34:39.638069711 +0530
 === Directory Tree Demonstration Completed Successfully ===
