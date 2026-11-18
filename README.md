@@ -1,6 +1,6 @@
 # CS207: Operating Systems Design — Assignment 1
 
-**Date:** 15 November 2026  
+**Date:** 19 November 2026  
 **Authors:**  
 - **Tanish Kumar** (Roll No: `24/EE/269`, [@Tanish-w](https://github.com/Tanish-w))  
 - **Yashasvi Singh Bhardwaj** (Roll No: `24/EN/074`, [@yashasvisb](https://github.com/yashasvisb))  
@@ -114,6 +114,5 @@ gcc --version && uname -a && lscpu && free -h && df -h
 │   ├── run_all.sh                  # Master execution script
 │   └── setup_part_f_tree.sh        # Part F directory tree setup
 └── report/
-    ├── report.pdf                  # Submission report
-    └── generate_report.py          # PDF generator script
+    └── OS_assignment_report.pdf    # Academic submission report (12 pages)
 ```
